@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Concert+One&family=Grape+Nuts&family=Press+Start+2P&family=Quintessential&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Concert+One&family=Courgette&family=Grape+Nuts&family=Press+Start+2P&family=Quintessential&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Concert+One&family=Courgette&family=Grape+Nuts&family=Merienda&family=Press+Start+2P&family=Quintessential&family=Shadows+Into+Light&display=swap');
+
+h1 {
+    color: palevioletred;
+    font-size: 70px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 30px;
+    padding: 15px;
+    font-family: 'Courgette', cursive;
+}
+
+/* .hi img{
+    max-width: 5%;
+    height: auto;
+
+}   */
+
+* {
+    box-sizing: border-box;
+}
+  
+.column {
+    float: left;
+    width: 23.23%;
+    padding: 5px;
+}
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.background{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+  
+.kitten img{
+    max-width: 10%;
+    height:auto;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(252, 176, 245, 0.4);
+    margin: 50px;
+    font-family: 'Courgette',
+    cursive;
+}
+
+p {
+    text-align: center;
+    background-color: rgb(252, 176, 245, 0.4);
+    margin: 50px;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.paracat {
+    text-align: center;
+    background-color: rgb(252, 176, 245, 0.4);
+    margin: 50px;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.paracat a {
+  text-decoration: none;
+  color: palevioletred;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.paracat :hover {
+  color: black;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 32px;
+    background-color: rgb(252, 176, 245, 0.4);
+    font-family: 'Merienda', cursive;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar :hover {
+    color: palevioletred;
+}
